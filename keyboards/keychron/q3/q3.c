@@ -76,7 +76,7 @@ __attribute__((weak)) void rgb_matrix_indicators_advanced_user(uint8_t led_min, 
     // RGB_MATRIX_INDICATOR_SET_COLOR(index, red, green, blue);
 
     if (host_keyboard_led_state().caps_lock) {
-        RGB_MATRIX_INDICATOR_SET_COLOR(CAPS_LOCK_LED_INDEX, 255, 255, 255);
+        RGB_MATRIX_INDICATOR_SET_COLOR(CAPS_LOCK_LED_INDEX, 255, 0, 0);
     } else {
         if (!rgb_matrix_get_flags()) {
            RGB_MATRIX_INDICATOR_SET_COLOR(CAPS_LOCK_LED_INDEX, 0, 0, 0);
