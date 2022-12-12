@@ -38,3 +38,5 @@
 #include "solid_reactive_nexus.h"
 #include "splash_anim.h"
 #include "solid_splash_anim.h"
+#include "glorious_pastel_solid.h"
+#include "glorious_pastel_breathing.h"
